@@ -1,0 +1,8 @@
+--mos.md                         Alias-ready MOS template conversion instructions
+docs/mos-template.md             Canonical MOS template conversion guide
+docker/RuneScapeDragonWilds.json Starter DragonWilds Docker template
+maintainer.json                   MOS Hub maintainer metadata
+README.md                         Setup/testing instructions
+compose/.gitkeep                  Empty Compose folder placeholder
+plugins/.gitkeep                  Empty plugins folder placeholder
+images/.gitkeep                   Empty images folder placeholder

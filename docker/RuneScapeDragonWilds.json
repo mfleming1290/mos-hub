@@ -1,0 +1,114 @@
+{
+  "name": "RuneScapeDragonWilds",
+  "repo": "indifferentbroccoli/runescape-dragonwilds-server-docker",
+  "network": "bridge",
+  "custom_ip": "",
+  "default_shell": "bash",
+  "privileged": false,
+  "no_autoupdate": false,
+  "extra_parameters": "--restart=unless-stopped --stop-timeout=30 --platform=linux/amd64",
+  "post_parameters": "",
+  "web_ui_url": "",
+  "icon": "",
+  "readme_url": "https://github.com/indifferentbroccoli/runescape-dragonwilds-server-docker",
+  "paths": [
+    {
+      "name": "Server Files",
+      "mode": "rw",
+      "host": "/mnt/cache/appdata/runescape-dragonwilds",
+      "container": "/home/steam/server-files",
+      "description": "Persistent dedicated-server installation, world saves, configuration, and server data."
+    }
+  ],
+  "ports": [
+    {
+      "name": "UDP - Game Port",
+      "protocol": "udp",
+      "host": "7777",
+      "container": "7777",
+      "description": "DragonWilds game port. The host port, container port, and DEFAULT_PORT must match. If you change one, change all three to the same value."
+    }
+  ],
+  "variables": [
+    {
+      "name": "PUID",
+      "key": "PUID",
+      "value": "500",
+      "mask": false,
+      "description": "User ID used by the container for file ownership. MOS documentation recommends 500 where supported."
+    },
+    {
+      "name": "PGID",
+      "key": "PGID",
+      "value": "500",
+      "mask": false,
+      "description": "Group ID used by the container for file ownership. MOS documentation recommends 500 where supported."
+    },
+    {
+      "name": "Owner Player ID",
+      "key": "OWNER_ID",
+      "value": "",
+      "mask": false,
+      "description": "REQUIRED. Your RuneScape: DragonWilds Player ID, found in-game at the bottom of the Settings menu. The server will not start without this value."
+    },
+    {
+      "name": "Server Name",
+      "key": "SERVER_NAME",
+      "value": "DragonWildsServer",
+      "mask": false,
+      "description": "Display name of the dedicated server."
+    },
+    {
+      "name": "Default World Name",
+      "key": "DEFAULT_WORLD_NAME",
+      "value": "MyWorld",
+      "mask": false,
+      "description": "Name of the default world created on first startup."
+    },
+    {
+      "name": "Admin Password",
+      "key": "ADMIN_PASSWORD",
+      "value": "",
+      "mask": true,
+      "description": "REQUIRED. Password used to access Server Management in-game. The server will not start correctly without configuring this value."
+    },
+    {
+      "name": "World Password",
+      "key": "WORLD_PASSWORD",
+      "value": "",
+      "mask": true,
+      "description": "Optional password players must enter to join. Leave empty for a public server."
+    },
+    {
+      "name": "Game Port",
+      "key": "DEFAULT_PORT",
+      "value": "7777",
+      "mask": false,
+      "description": "UDP port used by the server. This value must exactly match both the host and container port mapping."
+    },
+    {
+      "name": "Maximum Players",
+      "key": "MAX_PLAYERS",
+      "value": "6",
+      "mask": false,
+      "description": "Maximum number of players allowed on the server."
+    },
+    {
+      "name": "Update On Start",
+      "key": "UPDATE_ON_START",
+      "value": "true",
+      "mask": false,
+      "description": "When true, downloads/validates server files on container startup. Set to false to skip the update step."
+    },
+    {
+      "name": "Multihome Address",
+      "key": "MULTIHOME",
+      "value": "",
+      "mask": false,
+      "description": "Optional IP address passed to the server with -MULTIHOME. Leave empty unless the host has multiple interfaces and you specifically need to bind one."
+    }
+  ],
+  "devices": [],
+  "labels": [],
+  "gpus": []
+}
