@@ -1,0 +1,17 @@
+{
+    "name": "Distrobuilder",
+    "description": "Build custom LXC images directly on MOS.",
+    "category": [
+        "Utilities"
+    ],
+    "repository": "https://github.com/mfleming1290/mos-distrobuilder",
+    "architecture": [
+        "amd64"
+    ],
+    "driver": false,
+    "icon": "",
+    "readme_url": "https://github.com/mfleming1290/mos-distrobuilder",
+    "author": "mfleming1290",
+    "homepage": "https://github.com/mfleming1290/mos-distrobuilder",
+    "support": "https://github.com/mfleming1290/mos-distrobuilder/issues"
+}
