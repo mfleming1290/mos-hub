@@ -9,7 +9,7 @@
         "amd64"
     ],
     "driver": false,
-    "icon": "",
+    "icon": "distrobuilderIcon.png",
     "readme_url": "https://github.com/mfleming1290/mos-distrobuilder",
     "author": "mfleming1290",
     "homepage": "https://github.com/mfleming1290/mos-distrobuilder",
