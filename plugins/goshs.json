@@ -1,0 +1,13 @@
+{
+  "name": "GoSHS",
+  "description": "Serve MOS files with GoSHS, with dashboard controls for the common file-server settings and the full CLI available on the host.",
+  "category": ["Utilities"],
+  "repository": "https://github.com/mfleming1290/mos-goshs",
+  "architecture": ["amd64", "arm64"],
+  "driver": false,
+  "icon": "https://raw.githubusercontent.com/mfleming1290/mos-hub/main/images/goshsIcon.png",
+  "readme_url": "https://github.com/mfleming1290/mos-goshs",
+  "author": "mfleming1290",
+  "homepage": "https://github.com/mfleming1290/mos-goshs",
+  "support": "https://github.com/mfleming1290/mos-goshs/issues"
+}
