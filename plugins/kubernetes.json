@@ -1,0 +1,18 @@
+{
+  "name": "Kubernetes (k3s)",
+  "description": "Manage k3s on MOS as a server/control-plane or agent/worker node, including cluster join arguments from the plugin UI.",
+  "category": [
+    "Utilities"
+  ],
+  "repository": "https://github.com/mfleming1290/mos-kubernetes",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "driver": false,
+  "icon": "https://raw.githubusercontent.com/mfleming1290/mos-hub/main/images/kubernetesIcon.png",
+  "readme_url": "https://github.com/mfleming1290/mos-kubernetes",
+  "author": "mfleming1290",
+  "homepage": "https://github.com/mfleming1290/mos-kubernetes",
+  "support": "https://github.com/mfleming1290/mos-kubernetes/issues"
+}
