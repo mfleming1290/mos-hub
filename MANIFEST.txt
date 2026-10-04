@@ -11,3 +11,5 @@ plugins/goshs.json                 GoSHS file server plugin
 images/goshsIcon.png               GoSHS plugin icon
 plugins/kubernetes.json             Kubernetes (k3s) server/agent plugin
 images/kubernetesIcon.png           Kubernetes plugin icon
+plugins/binary-manager.json         Binary Manager plugin
+images/binary-managerIcon.svg       Binary Manager plugin icon
