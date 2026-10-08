@@ -15,8 +15,10 @@ Rust formatting/check and exact consumer pins PASS. Both hosts use the unchanged
 
 Prior six-file installed asset equality is retained. Latest read-only inspection finds
 both `/boot/optional/plugins/battlemoon-clock` and `/var/www/mos-plugins/battlemoon-clock`
-absent, while cached Hub discovery remains. Cause is unverified; current installation
-is not claimed. No NAS changes/reinstallation were performed in this closeout.
+absent, while cached Hub discovery remained at closeout. The user subsequently
+clarified removal after testing and reinstalled it. Read-only follow-up confirms
+both directories present and all six frontend hashes matching the accepted build/release.
+No agent NAS changes/reinstallation were performed.
 Internal sibling/resource cleanup is automated proof; live browser instrumentation
 and cross-version update are not claimed. R4/P2-B2/hardware evidence stays open.
 

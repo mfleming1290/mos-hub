@@ -4,7 +4,7 @@ Local plugin version **0.1.0**, exposing `./Plugin` (settings page) and `./Widge
 (dashboard Clock), using the existing MOS federation/settings/Debian workflow.
 No backend, hooks, native binary, desktop runtime or second Vue runtime is included.
 This folder is temporary local source within the catalog checkout, not a newly
-created distribution repository. **RELEASE PUBLISHED / USER INSTALLED; E5 PARTIAL.**
+created distribution repository. **RELEASE PUBLISHED / E5–E6 ACCEPTED.**
 The public [mos-battlemoon-clock repository](https://github.com/mfleming1290/mos-battlemoon-clock)
 now owns release source/builds; it vendors only the approved exact component archives
 and host wrapper, so its clean Actions build needs no private upstream access.
@@ -102,8 +102,9 @@ Those docs are static source evidence, not proof of this host's live Clock behav
    unchanged. MOS has no assumed generic disable switch; use navigation/unmount plus
    its supported uninstall lifecycle. No backend services require restarting.
 
-E5 remains partial and E6 blocked until that real-host procedure passes. R4/P2-B2
-native and physical display gates are unrelated and remain open.
+The procedure above is the retained acceptance/rollback reference, not pending work.
+E5/E6 are accepted; reinstallation and all six installed frontend hashes are verified.
+R4/P2-B2 native and physical display gates are unrelated and remain open.
 
 ## Rollback
 

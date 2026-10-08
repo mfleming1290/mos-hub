@@ -74,3 +74,23 @@
 - DOX: Writing-for-agents checkpoint and validation now reflect accepted E5/E6, preserving historical release receipts and unrelated work.
 - Remaining: No approved E5/E6 verification work; R4/P2-B2/hardware outside this milestone.
 - Next: Optional user-controlled restoration if desired; host changes still need separate approval.
+
+## 2026-10-08T14:26:16Z — Preserve local source and reconcile published catalogs
+
+- Request: Non-destructively synchronize divergent Hub main and verify release/catalog consistency for SDK baseline.
+- Result: completed local reconciliation. Starting HEAD 9c4a52114e22978feb467c88b01bb9c934606d23 and remote 4d60fb43c44f7c00bb254af0040b7119ae80602f preserved by backup/pre-sdk-sync-20261008 and backup/pre-sdk-remote-20261008. Merge 9c8e24f retains both histories; manifest conflict keeps Clock and Binary Manager. Retained tracked local staging includes distinct replay/preparation/package/evidence files; it is not release authority. User instructions/AGENTS/docs remain intact. Ordinary final push/status follows this record.
+- Files:
+  - Created: None.
+  - Modified:
+    - MANIFEST.txt
+    - AGENTS.md
+    - README.md
+    - local-plugins/battlemoon-clock/README.md
+    - local-plugins/battlemoon-clock/validation.md
+    - DOX_CHANGELOG.md
+  - Moved/Renamed: None.
+  - Deleted: No source files; removed only a dangling manifest reference to absent --mos.md, corrected plugins/Distrobuilder to existing plugins/distrobuilder.json.
+- Validation: passed six catalog JSON/icon paths, 16 unique existing manifest paths and normalized Git equality of all remote catalog/icons. Scoped credential-pattern scan passed; checkout CRLF differences are not catalog changes. Shared source manifests/locks/archive identity, fresh deterministic packs, public release downloads/checksums/tag/Actions and local links/diff checks pass. No package/version, release, NAS or SDK change; local builds/caches/artifacts preserved ignored.
+- DOX: Writing-for-agents reconciles accepted real MOS and user reinstall evidence; release repository still owns builds. Conflict-resolution guidance preserves both intents instead of discarding local source or remote catalog work.
+- Remaining: Final ordinary push/status verification follows this record; no unresolved content conflict.
+- Next: Separate SDK run; no further Hub or NAS operation required by this baseline.
