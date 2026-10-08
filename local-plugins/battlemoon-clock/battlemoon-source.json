@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mfleming1290/battlemoon-desktop",
+  "revision": "833075ac26cd8d5ebc67d131d3a77fa3a7a17c7e",
+  "packages": {
+    "@battlemoon/clock": {
+      "version": "0.1.1", "filename": "battlemoon-clock-0.1.1.tgz",
+      "integrity": "sha512-nXzrC6CvDuw6NJ+frVeWC4RPqfox51YEcWU7b5KaI9i52Se8EbMhHomdh1LdunvqcdsfTj0XicDmDVkncurV8w=="
+    },
+    "@battlemoon/component-contracts": {
+      "version": "0.1.1", "filename": "battlemoon-component-contracts-0.1.1.tgz",
+      "integrity": "sha512-UphS937Y+iqiQ7V/xGLKVGWeKJSYUGmYKOm/pv6ODvEGGQfpn9Di+W/ZjIFnpie0PbsLPkyYCSCwR+5j6tLrlg=="
+    }
+  }
+}

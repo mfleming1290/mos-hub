@@ -321,3 +321,6 @@ compose.override.yml
 # Local project overrides
 # -----------------------------------------------------------------------------
 .gitignore.local
+
+# Verified Git-derived MOS wrapper build input
+local-plugins/**/page/src/generated/

@@ -1,0 +1,13 @@
+{
+  "name": "mos-battlemoon-clock-source",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:components": "node tools/prepare.mjs",
+    "build": "npm --prefix page run build",
+    "test": "node --test tests/*.test.mjs",
+    "package": "node tools/package.mjs",
+    "check": "node tools/check.mjs"
+  }
+}
