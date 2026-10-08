@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Battlemoon Clock">
+  <rect width="128" height="128" rx="28" fill="#172033"/>
+  <circle cx="64" cy="64" r="43" fill="none" stroke="#93c5fd" stroke-width="7"/>
+  <path d="M64 35v30l21 12" fill="none" stroke="#e2e8f0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="5" fill="#e2e8f0"/>
+</svg>
