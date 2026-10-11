@@ -1,0 +1,14 @@
+{
+  "name": "MOS Desktop",
+  "description": "M0 Battlemoon runtime integration canary. Desktop shell and application launching are not included yet.",
+  "category": ["Utilities"],
+  "repository": "https://github.com/mfleming1290/mos-desktop",
+  "architecture": ["all"],
+  "driver": false,
+  "settings": true,
+  "icon": "https://raw.githubusercontent.com/mfleming1290/mos-hub/main/images/desktopIcon.svg",
+  "readme_url": "https://github.com/mfleming1290/mos-desktop",
+  "author": "mfleming1290",
+  "homepage": "https://github.com/mfleming1290/mos-desktop",
+  "support": "https://github.com/mfleming1290/mos-desktop/issues"
+}
