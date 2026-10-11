@@ -94,3 +94,22 @@
 - DOX: Writing-for-agents reconciles accepted real MOS and user reinstall evidence; release repository still owns builds. Conflict-resolution guidance preserves both intents instead of discarding local source or remote catalog work.
 - Remaining: Final ordinary push/status verification follows this record; no unresolved content conflict.
 - Next: Separate SDK run; no further Hub or NAS operation required by this baseline.
+
+## 2026-10-11T09:14:05Z — MOS Desktop M0 Hub release
+
+- Request: Publish MOS Desktop through the supplied Hub publishing guide so the user can install and verify M0.
+- Result: completed release/catalog publication — dedicated plugin source/tag d2a9c84637a17bbb65e6af257722b35bd292482a, numeric 0.1.0 Actions release succeeds. Catalog commit fc4b06b3ee414f618d3026f5710fce2d01c077e0 pushed only Desktop JSON/icon/manifest additions. Actual MOS installation/loading remains user-owned and unverified; M0 partial, M1 gated. No NAS changes.
+- Files:
+  - Created:
+    - plugins/desktop.json
+    - images/desktopIcon.svg
+  - Modified:
+    - MANIFEST.txt
+    - AGENTS.md
+    - DOX_CHANGELOG.md
+  - Moved/Renamed: None.
+  - Deleted: None.
+- Validation: passed catalog JSON, manifest targets/uniqueness and prior-entry preservation, scoped diff/whitespace checks, anonymous catalog/icon/manifest downloads. Four release assets resolve; anonymous Debian/ZIP downloads match fresh public isolated-cache build and published checksums. Architecture all, no backend/hooks/services, source archive below 10 MiB. No running MOS cache refresh/discovery/install test performed. Clock, Binary Manager and all other entries remain unchanged.
+- DOX: added dedicated Desktop discovery ownership and honest M0 page-only scope; retained accepted Clock E5/E6 evidence.
+- Remaining: user-controlled MOS installation and page/navigation observations; no release/catalog blocker.
+- Next: Install MOS Desktop 0.1.0 via normal Hub and verify Runtime PASS before M1.
