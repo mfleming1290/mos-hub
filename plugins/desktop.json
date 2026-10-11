@@ -1,6 +1,6 @@
 {
   "name": "MOS Desktop",
-  "description": "M0 Battlemoon runtime integration canary. Desktop shell and application launching are not included yet.",
+  "description": "Battlemoon desktop shell with independent Clock windows, launcher, taskbar and scoped browser layouts. Native application streaming is not included yet.",
   "category": ["Utilities"],
   "repository": "https://github.com/mfleming1290/mos-desktop",
   "architecture": ["all"],

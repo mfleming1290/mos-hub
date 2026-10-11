@@ -14,5 +14,5 @@ plugins/binary-manager.json         Binary Manager plugin
 images/binary-managerIcon.svg       Binary Manager plugin icon
 plugins/battlemoon-clock.json       Battlemoon Clock plugin
 images/battlemoon-clockIcon.svg     Battlemoon Clock plugin icon
-plugins/desktop.json                 MOS Desktop M0 runtime canary plugin
+plugins/desktop.json                 MOS Desktop M1 browser shell plugin
 images/desktopIcon.svg               MOS Desktop plugin icon
