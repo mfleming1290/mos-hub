@@ -1,0 +1,14 @@
+{
+  "name": "MOS Stream",
+  "description": "Open an existing Selkies streamed desktop or application with a saved, changeable URL, reconnect and fullscreen controls.",
+  "category": ["Utilities"],
+  "repository": "https://github.com/mfleming1290/mos-stream",
+  "architecture": ["all"],
+  "driver": false,
+  "settings": true,
+  "icon": "https://raw.githubusercontent.com/mfleming1290/mos-hub/main/images/streamIcon.svg",
+  "readme_url": "https://github.com/mfleming1290/mos-stream",
+  "author": "mfleming1290",
+  "homepage": "https://github.com/mfleming1290/mos-stream",
+  "support": "https://github.com/mfleming1290/mos-stream/issues"
+}
