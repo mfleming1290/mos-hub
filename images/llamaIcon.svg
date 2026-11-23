@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="MOS Llama">
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="#14263b"/>
+  <path d="M42 31h44a12 12 0 0 1 12 12v42a12 12 0 0 1-12 12H42a12 12 0 0 1-12-12V43a12 12 0 0 1 12-12Z" fill="none" stroke="#d7e5f1" stroke-width="7"/>
+  <path d="M49 31V20m30 11V20M49 108v-11m30 11V97M30 49H19m11 30H19m90-30H98m11 30H98" stroke="#7ba7bc" stroke-width="7" stroke-linecap="round"/>
+  <path d="m48 70 11-14 10 12 11-15" fill="none" stroke="#a9d7e2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,14 @@
+{
+  "name": "MOS Llama",
+  "description": "Manage llama-swap routing and persistent llama.cpp inference backends on MOS.",
+  "category": ["Utilities"],
+  "repository": "https://github.com/mfleming1290/mos-llama",
+  "architecture": ["all"],
+  "driver": false,
+  "settings": true,
+  "icon": "https://raw.githubusercontent.com/mfleming1290/mos-hub/main/images/llamaIcon.svg",
+  "readme_url": "https://github.com/mfleming1290/mos-llama",
+  "author": "mfleming1290",
+  "homepage": "https://github.com/mfleming1290/mos-llama",
+  "support": "https://github.com/mfleming1290/mos-llama/issues"
+}
