@@ -113,3 +113,40 @@
 - DOX: added dedicated Desktop discovery ownership and honest M0 page-only scope; retained accepted Clock E5/E6 evidence.
 - Remaining: user-controlled MOS installation and page/navigation observations; no release/catalog blocker.
 - Next: Install MOS Desktop 0.1.0 via normal Hub and verify Runtime PASS before M1.
+
+## 2026-10-11T10:13:08Z â€” MOS Desktop M1 catalog update
+
+- Request: Publish approved M1 update and record standing future Hub publication authority for this project.
+- Result: completed catalog/distribution â€” commit bd3fb1729c0787fef2e56fd80f764d693865593a pushes only Desktop JSON and existing manifest description after verified public 0.1.1 release. No new entry, icon, architecture or version field. All unrelated catalog entries preserved; actual MOS update remains user-controlled.
+- Files:
+  - Created: None.
+  - Modified:
+    - plugins/desktop.json
+    - MANIFEST.txt
+    - AGENTS.md
+    - DOX_CHANGELOG.md
+  - Moved/Renamed: None.
+  - Deleted: None.
+- Validation: passed catalog JSON, all manifest targets/uniqueness, scoped two-file commit and diff checks; anonymous catalog/icon/manifest downloads show M1 metadata. Published all Debian/source SHA256 match clean Linux rebuild and release sidecars. Initial checker treated manifest description columns as filename text; corrected parser passes without unrelated edits. Local/remote main 0/0. No running MOS cache refresh, installation/update/settings or restart.
+- DOX: local guidance now distinguishes accepted M0 from published M1 pending live acceptance and records publication authorization. AGENTS and this history entry remain local uncommitted documentation; only intended catalog distribution files pushed.
+- Remaining: User updates MOS Desktop to 0.1.1 and observes real workflow. No release/catalog blocker; no M2 authorized.
+- Next: Refresh normal Hub, use Update rather than reinstall, then reload MOS Desktop.
+
+## 2026-11-22T16:06:28Z — MOS Stream catalogue publication
+
+- Request: Add MOS Stream to this Hub and push so it can be installed from the catalogue.
+- Result: completed remote distribution — commit30ce10f adds the stream catalogue entry, SVG icon and manifest references after verified public0.1.0 release. Publication used a clean G: clone atop remote52ef0f8 because H: Git fetch could not write a remote ref. Existing H: dirty AGENTS/history preserved and excluded from the catalogue commit; only Stream additions mirrored locally. H: branch synchronization is not claimed.
+- Files:
+  - Created:
+    - plugins/stream.json
+    - images/streamIcon.svg
+  - Modified:
+    - MANIFEST.txt
+    - AGENTS.md
+    - DOX_CHANGELOG.md
+  - Moved/Renamed: None.
+  - Deleted: None.
+- Validation: passed — catalogue identity, all22 remote manifest paths/uniqueness, exact scoped three-file commit/push and anonymous catalogue/icon/manifest downloads. Plugin main/tag CI and all release integrity downloads pass; published Debian matches local verified build. All unrelated remote entries, including newer Llama entries, retained.
+- DOX: added release/discovery ownership and live-host limit; local guidance/history remains deliberately uncommitted as before.
+- Remaining: User-controlled normal catalogue refresh, installation and live stream check. No NAS/settings/container mutation performed.
+- Next: Install MOS Stream0.1.0 through MOS catalogue.

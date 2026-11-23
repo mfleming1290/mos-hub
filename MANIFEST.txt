@@ -16,3 +16,5 @@ plugins/battlemoon-clock.json       Battlemoon Clock plugin
 images/battlemoon-clockIcon.svg     Battlemoon Clock plugin icon
 plugins/desktop.json                 MOS Desktop M1 browser shell plugin
 images/desktopIcon.svg               MOS Desktop plugin icon
+plugins/stream.json                MOS Stream Selkies viewer plugin
+images/streamIcon.svg              MOS Stream plugin icon
